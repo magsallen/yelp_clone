@@ -63,6 +63,7 @@ feature 'restaurants' do
       expect(page).to have_content 'Restaurant deleted successfully'
     end
   end
+  
   context 'creating restaurants' do
     it 'does not let you submit a name that is too short' do
       visit '/restaurants'
