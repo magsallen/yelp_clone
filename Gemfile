@@ -53,4 +53,6 @@ group :development do
   gem 'spring'
   gem 'haml'
   gem 'haml-rails'
+  gem 'dotenv-rails'
+  gem 'omniauth-facebook'
 end
