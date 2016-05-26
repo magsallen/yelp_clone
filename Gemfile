@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
-
+gem 'omniauth-facebook'
 #devise is a complete MVC solution. Flexible authentication solution for rails
 gem 'devise'
+gem 'dotenv-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use postgresql as the database for Active Record
@@ -53,6 +54,6 @@ group :development do
   gem 'spring'
   gem 'haml'
   gem 'haml-rails'
-  gem 'dotenv-rails'
-  gem 'omniauth-facebook'
+
+
 end
